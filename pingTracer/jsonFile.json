@@ -1,0 +1,173 @@
+{
+    
+    
+        
+        
+        "token": "hh",
+    
+        "numberOfDomains": 0,
+    
+    
+        
+        "settings": {
+            
+            
+                "email" : "sample@gmail.com",
+            
+            
+        },
+    
+        "domains": {
+        
+            
+            "domain1": {
+                
+                
+                "domain" : "www.google.com",
+                "pushNotifications": true,
+                
+                
+            },
+            "domain2": {
+                
+                "domain" : "www.google.com",
+                "pushNotifications": true,
+                
+                
+            },
+            "domain3": {
+                
+                "domain" : "www.google.com",
+                "pushNotifications": true,
+                
+                
+            },
+            "domain4": {
+                
+                "domain" : "www.google.com",
+                "pushNotifications": true,
+                
+                
+            },
+            "domain5": {
+                
+                "domain" : "www.google.com",
+                "pushNotifications": true,
+                
+                
+            },
+            "domain6": {
+                
+                "domain" : "www.google.com",
+                "pushNotifications": true,
+                
+                
+            },
+            "domain7": {
+                
+                "domain" : "www.google.com",
+                "pushNotifications": true,
+                
+                
+            },
+            "domain8": {
+                
+                "domain" : "www.google.com",
+                "pushNotifications": true,
+                
+            },
+            "domain9": {
+                
+                "domain" : "www.google.com",
+                "pushNotifications": true,
+                
+                
+            },
+            "domain10": {
+                
+                "domain" : "www.google.com",
+                "pushNotifications": true,
+                
+            },
+            "domain11": {
+                
+                "domain" : "www.google.com",
+                "pushNotifications": true,
+                
+                
+            },
+            "domain12": {
+                
+                "domain" : "www.google.com",
+                "pushNotifications": true,
+                
+                
+            },
+            "domain13": {
+                
+                "domain" : "www.google.com",
+                "pushNotifications": true,
+                
+            },
+            "domain14": {
+                
+                "domain" : "www.google.com",
+                "pushNotifications": true,
+                
+                
+            },
+            "domain15": {
+                
+                "domain" : "www.google.com",
+                "pushNotifications": true,
+                
+                
+            },
+            "domain16": {
+                
+                "domain" : "www.google.com",
+                "pushNotifications": true,
+                
+                
+            },
+            "domain17": {
+                
+                "domain" : "www.google.com",
+                "pushNotifications": true,
+                
+            },
+            "domain18": {
+                
+                "domain" : "www.google.com",
+                "pushNotifications": true,
+                
+                
+            },
+            "domain19": {
+                
+                "domain" : "www.google.com",
+                "pushNotifications": true,
+                
+                
+            },
+            "domain20": {
+                
+                "domain" : "www.google.com",
+                "pushNotifications": true,
+                
+                
+            }, }
+        
+    
+    
+    
+    
+    
+    
+
+
+
+
+
+
+}

@@ -8,11 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		81064B3D1C3FBA4A00F7FF24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81064B3C1C3FBA4A00F7FF24 /* AppDelegate.swift */; };
-		81064B3F1C3FBA4A00F7FF24 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81064B3E1C3FBA4A00F7FF24 /* ViewController.swift */; };
-		81064B421C3FBA4A00F7FF24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81064B401C3FBA4A00F7FF24 /* Main.storyboard */; };
 		81064B441C3FBA4A00F7FF24 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81064B431C3FBA4A00F7FF24 /* Images.xcassets */; };
 		81064B471C3FBA4A00F7FF24 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81064B451C3FBA4A00F7FF24 /* LaunchScreen.xib */; };
 		81064B531C3FBA4A00F7FF24 /* pingTracerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81064B521C3FBA4A00F7FF24 /* pingTracerTests.swift */; };
+		81064B5D1C3FC93A00F7FF24 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81064B5C1C3FC93A00F7FF24 /* FirstViewController.swift */; };
+		81064B6A1C405C1300F7FF24 /* imageName.png in Resources */ = {isa = PBXBuildFile; fileRef = 81064B691C405C1300F7FF24 /* imageName.png */; };
+		81064B6C1C4187DE00F7FF24 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 81064B6B1C4187DD00F7FF24 /* Podfile */; };
+		81064B6E1C418F7B00F7FF24 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81064B6D1C418F7B00F7FF24 /* SwiftyJSON.framework */; };
+		81064B701C4192BB00F7FF24 /* jsonFile.json in Resources */ = {isa = PBXBuildFile; fileRef = 81064B6F1C4192BB00F7FF24 /* jsonFile.json */; };
+		811117CD1C450CA9008AFCBB /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 811117CC1C450CA9008AFCBB /* settings.png */; };
+		811117D31C485D71008AFCBB /* SimplePing.m in Sources */ = {isa = PBXBuildFile; fileRef = 811117D21C485D71008AFCBB /* SimplePing.m */; };
+		814EC4F91C62B5A10015E590 /* PingClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814EC4F81C62B5A10015E590 /* PingClass.swift */; };
+		81606B401C557A52002FB781 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81606B3F1C557A52002FB781 /* SWRevealViewController.m */; };
+		81606B421C567AB2002FB781 /* BackTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81606B411C567AB2002FB781 /* BackTableViewController.swift */; };
+		81606B441C56C63E002FB781 /* WOLViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81606B431C56C63E002FB781 /* WOLViewController.swift */; };
+		81606B461C56C656002FB781 /* OtherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81606B451C56C655002FB781 /* OtherViewController.swift */; };
+		81D239FE1C5432D2005D8524 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D239FD1C5432D2005D8524 /* Reachability.m */; };
+		81F589951C4BD7DA00544301 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81F589941C4BD7DA00544301 /* Main.storyboard */; };
+		81F589971C4D5A6300544301 /* SortViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F589961C4D5A6300544301 /* SortViewController.swift */; };
+		81F5899D1C4D9A6900544301 /* del.png in Resources */ = {isa = PBXBuildFile; fileRef = 81F5899C1C4D9A6900544301 /* del.png */; };
+		81F5899F1C4D9CE700544301 /* move.png in Resources */ = {isa = PBXBuildFile; fileRef = 81F5899E1C4D9CE700544301 /* move.png */; };
+		81F589A11C4E4D5200544301 /* TableViewCellSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F589A01C4E4D5200544301 /* TableViewCellSort.swift */; };
+		81F589A31C4EA54100544301 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F589A21C4EA54100544301 /* HistoryViewController.swift */; };
+		81F589A51C4EAD8D00544301 /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F589A41C4EAD8D00544301 /* EditViewController.swift */; };
+		81F589A71C51409300544301 /* TableViewCell1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F589A61C51409300544301 /* TableViewCell1.swift */; };
+		D60F4B028F87E51B51FBEB28 /* Pods_pingTracer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4613DC538613C3BD739D2D5F /* Pods_pingTracer.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,17 +45,57 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		811875D91C5E027E00D64763 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		4613DC538613C3BD739D2D5F /* Pods_pingTracer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pingTracer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6638E1DD363F29A42AC16515 /* Pods-pingTracer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pingTracer.debug.xcconfig"; path = "../../../../Users/ivangutnik/Documents/pingTracer/pingTracer/Pods/Target Support Files/Pods-pingTracer/Pods-pingTracer.debug.xcconfig"; sourceTree = "<group>"; };
 		81064B371C3FBA4A00F7FF24 /* pingTracer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pingTracer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81064B3B1C3FBA4A00F7FF24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		81064B3C1C3FBA4A00F7FF24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		81064B3E1C3FBA4A00F7FF24 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		81064B411C3FBA4A00F7FF24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		81064B431C3FBA4A00F7FF24 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		81064B461C3FBA4A00F7FF24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		81064B4C1C3FBA4A00F7FF24 /* pingTracerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pingTracerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		81064B511C3FBA4A00F7FF24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		81064B521C3FBA4A00F7FF24 /* pingTracerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pingTracerTests.swift; sourceTree = "<group>"; };
+		81064B5C1C3FC93A00F7FF24 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		81064B691C405C1300F7FF24 /* imageName.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = imageName.png; path = ../../../Desktop/imageName.png; sourceTree = "<group>"; };
+		81064B6B1C4187DD00F7FF24 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		81064B6D1C418F7B00F7FF24 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = "/Users/ivangutnik/Documents/pingTracer/pingTracer/Pods/../build/Debug-iphoneos/SwiftyJSON.framework"; sourceTree = "<absolute>"; };
+		81064B6F1C4192BB00F7FF24 /* jsonFile.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = jsonFile.json; path = ../../../../../Users/ivangutnik/Documents/pingTracer/pingTracer/jsonFile.json; sourceTree = "<group>"; };
+		811117CC1C450CA9008AFCBB /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = settings.png; path = /Users/ivangutnik/Desktop/settings.png; sourceTree = "<absolute>"; };
+		811117D01C485D70008AFCBB /* pingTracer-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "pingTracer-Bridging-Header.h"; sourceTree = "<group>"; };
+		811117D11C485D71008AFCBB /* SimplePing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimplePing.h; sourceTree = "<group>"; };
+		811117D21C485D71008AFCBB /* SimplePing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimplePing.m; sourceTree = "<group>"; };
+		814EC4F81C62B5A10015E590 /* PingClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PingClass.swift; path = ../../../../../Users/ivangutnik/Documents/pingTracer/pingTracer/PingClass.swift; sourceTree = "<group>"; };
+		81606B3E1C557A52002FB781 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		81606B3F1C557A52002FB781 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		81606B411C567AB2002FB781 /* BackTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BackTableViewController.swift; path = /Users/ivangutnik/Documents/pingTracer/BackTableViewController.swift; sourceTree = "<absolute>"; };
+		81606B431C56C63E002FB781 /* WOLViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WOLViewController.swift; path = ../../../../../Users/ivangutnik/Documents/pingTracer/pingTracer/WOLViewController.swift; sourceTree = "<group>"; };
+		81606B451C56C655002FB781 /* OtherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OtherViewController.swift; path = ../../../../../Users/ivangutnik/Documents/pingTracer/pingTracer/OtherViewController.swift; sourceTree = "<group>"; };
+		81D239FC1C5432D2005D8524 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		81D239FD1C5432D2005D8524 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		81F589941C4BD7DA00544301 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		81F589961C4D5A6300544301 /* SortViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SortViewController.swift; path = ../../../../../Users/ivangutnik/Documents/pingTracer/pingTracer/SortViewController.swift; sourceTree = "<group>"; };
+		81F589981C4D92E500544301 /* sowGB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sowGB.png; path = ../pingTracer/sowGB.png; sourceTree = "<group>"; };
+		81F5899C1C4D9A6900544301 /* del.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = del.png; sourceTree = "<group>"; };
+		81F5899E1C4D9CE700544301 /* move.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = move.png; path = ../pingTracer/move.png; sourceTree = "<group>"; };
+		81F589A01C4E4D5200544301 /* TableViewCellSort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableViewCellSort.swift; path = ../../../../../Users/ivangutnik/Documents/pingTracer/pingTracer/TableViewCellSort.swift; sourceTree = "<group>"; };
+		81F589A21C4EA54100544301 /* HistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HistoryViewController.swift; path = ../../../../../Users/ivangutnik/Documents/pingTracer/pingTracer/HistoryViewController.swift; sourceTree = "<group>"; };
+		81F589A41C4EAD8D00544301 /* EditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EditViewController.swift; path = ../../../../../Users/ivangutnik/Documents/pingTracer/pingTracer/EditViewController.swift; sourceTree = "<group>"; };
+		81F589A61C51409300544301 /* TableViewCell1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableViewCell1.swift; path = ../../../../../Users/ivangutnik/Documents/pingTracer/pingTracer/TableViewCell1.swift; sourceTree = "<group>"; };
+		A82C065FE910E5E08C41A53D /* Pods-pingTracer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pingTracer.release.xcconfig"; path = "../../../../Users/ivangutnik/Documents/pingTracer/pingTracer/Pods/Target Support Files/Pods-pingTracer/Pods-pingTracer.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +103,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81064B6E1C418F7B00F7FF24 /* SwiftyJSON.framework in Frameworks */,
+				D60F4B028F87E51B51FBEB28 /* Pods_pingTracer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +118,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A6C80F74A1CB3E8A86FBCCC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				81064B6D1C418F7B00F7FF24 /* SwiftyJSON.framework */,
+				4613DC538613C3BD739D2D5F /* Pods_pingTracer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5C876C928240BA30030123DC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6638E1DD363F29A42AC16515 /* Pods-pingTracer.debug.xcconfig */,
+				A82C065FE910E5E08C41A53D /* Pods-pingTracer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		81064B2E1C3FBA4A00F7FF24 = {
 			isa = PBXGroup;
 			children = (
 				81064B391C3FBA4A00F7FF24 /* pingTracer */,
 				81064B4F1C3FBA4A00F7FF24 /* pingTracerTests */,
 				81064B381C3FBA4A00F7FF24 /* Products */,
+				5C876C928240BA30030123DC /* Pods */,
+				0A6C80F74A1CB3E8A86FBCCC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,11 +159,29 @@
 		81064B391C3FBA4A00F7FF24 /* pingTracer */ = {
 			isa = PBXGroup;
 			children = (
+				81064B6B1C4187DD00F7FF24 /* Podfile */,
+				81064B6F1C4192BB00F7FF24 /* jsonFile.json */,
 				81064B3C1C3FBA4A00F7FF24 /* AppDelegate.swift */,
-				81064B3E1C3FBA4A00F7FF24 /* ViewController.swift */,
-				81064B401C3FBA4A00F7FF24 /* Main.storyboard */,
+				81064B5C1C3FC93A00F7FF24 /* FirstViewController.swift */,
+				81F589A61C51409300544301 /* TableViewCell1.swift */,
+				814EC4F81C62B5A10015E590 /* PingClass.swift */,
+				81F589A01C4E4D5200544301 /* TableViewCellSort.swift */,
+				81F589A21C4EA54100544301 /* HistoryViewController.swift */,
+				81F589961C4D5A6300544301 /* SortViewController.swift */,
+				81606B411C567AB2002FB781 /* BackTableViewController.swift */,
+				81606B431C56C63E002FB781 /* WOLViewController.swift */,
+				81606B451C56C655002FB781 /* OtherViewController.swift */,
+				81F589A41C4EAD8D00544301 /* EditViewController.swift */,
 				81064B431C3FBA4A00F7FF24 /* Images.xcassets */,
+				81F589941C4BD7DA00544301 /* Main.storyboard */,
 				81064B451C3FBA4A00F7FF24 /* LaunchScreen.xib */,
+				811117D11C485D71008AFCBB /* SimplePing.h */,
+				811117D21C485D71008AFCBB /* SimplePing.m */,
+				81606B3E1C557A52002FB781 /* SWRevealViewController.h */,
+				81606B3F1C557A52002FB781 /* SWRevealViewController.m */,
+				81D239FC1C5432D2005D8524 /* Reachability.h */,
+				81D239FD1C5432D2005D8524 /* Reachability.m */,
+				811117D01C485D70008AFCBB /* pingTracer-Bridging-Header.h */,
 				81064B3A1C3FBA4A00F7FF24 /* Supporting Files */,
 			);
 			path = pingTracer;
@@ -90,6 +190,8 @@
 		81064B3A1C3FBA4A00F7FF24 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				81064B691C405C1300F7FF24 /* imageName.png */,
+				811117CC1C450CA9008AFCBB /* settings.png */,
 				81064B3B1C3FBA4A00F7FF24 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -107,6 +209,9 @@
 		81064B501C3FBA4A00F7FF24 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				81F5899C1C4D9A6900544301 /* del.png */,
+				81F5899E1C4D9CE700544301 /* move.png */,
+				81F589981C4D92E500544301 /* sowGB.png */,
 				81064B511C3FBA4A00F7FF24 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -119,9 +224,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 81064B561C3FBA4A00F7FF24 /* Build configuration list for PBXNativeTarget "pingTracer" */;
 			buildPhases = (
+				18E4FBBA0C2F3DF788E6C37A /* Check Pods Manifest.lock */,
 				81064B331C3FBA4A00F7FF24 /* Sources */,
 				81064B341C3FBA4A00F7FF24 /* Frameworks */,
 				81064B351C3FBA4A00F7FF24 /* Resources */,
+				16154AE2B69593645BBBDF89 /* Embed Pods Frameworks */,
+				4C1A149968A17A903A6DEF49 /* Copy Pods Resources */,
+				811875D91C5E027E00D64763 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -156,11 +265,14 @@
 		81064B2F1C3FBA4A00F7FF24 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastSwiftMigration = 0720;
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Ivan Gutnik";
 				TargetAttributes = {
 					81064B361C3FBA4A00F7FF24 = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 87RQQXHP88;
 					};
 					81064B4B1C3FBA4A00F7FF24 = {
 						CreatedOnToolsVersion = 6.4;
@@ -192,7 +304,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81064B421C3FBA4A00F7FF24 /* Main.storyboard in Resources */,
+				81064B6C1C4187DE00F7FF24 /* Podfile in Resources */,
+				81F5899F1C4D9CE700544301 /* move.png in Resources */,
+				81064B6A1C405C1300F7FF24 /* imageName.png in Resources */,
+				81064B701C4192BB00F7FF24 /* jsonFile.json in Resources */,
+				81F589951C4BD7DA00544301 /* Main.storyboard in Resources */,
 				81064B471C3FBA4A00F7FF24 /* LaunchScreen.xib in Resources */,
 				81064B441C3FBA4A00F7FF24 /* Images.xcassets in Resources */,
 			);
@@ -202,18 +318,80 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				811117CD1C450CA9008AFCBB /* settings.png in Resources */,
+				81F5899D1C4D9A6900544301 /* del.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		16154AE2B69593645BBBDF89 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../../../../Users/ivangutnik/Documents/pingTracer/pingTracer/Pods/Target Support Files/Pods-pingTracer/Pods-pingTracer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		18E4FBBA0C2F3DF788E6C37A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4C1A149968A17A903A6DEF49 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../../../../Users/ivangutnik/Documents/pingTracer/pingTracer/Pods/Target Support Files/Pods-pingTracer/Pods-pingTracer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		81064B331C3FBA4A00F7FF24 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81064B3F1C3FBA4A00F7FF24 /* ViewController.swift in Sources */,
+				81D239FE1C5432D2005D8524 /* Reachability.m in Sources */,
+				81F589A51C4EAD8D00544301 /* EditViewController.swift in Sources */,
+				81606B441C56C63E002FB781 /* WOLViewController.swift in Sources */,
+				81F589A11C4E4D5200544301 /* TableViewCellSort.swift in Sources */,
+				81064B5D1C3FC93A00F7FF24 /* FirstViewController.swift in Sources */,
 				81064B3D1C3FBA4A00F7FF24 /* AppDelegate.swift in Sources */,
+				81606B401C557A52002FB781 /* SWRevealViewController.m in Sources */,
+				811117D31C485D71008AFCBB /* SimplePing.m in Sources */,
+				814EC4F91C62B5A10015E590 /* PingClass.swift in Sources */,
+				81F589971C4D5A6300544301 /* SortViewController.swift in Sources */,
+				81606B421C567AB2002FB781 /* BackTableViewController.swift in Sources */,
+				81F589A31C4EA54100544301 /* HistoryViewController.swift in Sources */,
+				81F589A71C51409300544301 /* TableViewCell1.swift in Sources */,
+				81606B461C56C656002FB781 /* OtherViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,14 +414,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		81064B401C3FBA4A00F7FF24 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				81064B411C3FBA4A00F7FF24 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		81064B451C3FBA4A00F7FF24 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -276,6 +446,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -340,21 +511,41 @@
 		};
 		81064B571C3FBA4A00F7FF24 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6638E1DD363F29A42AC16515 /* Pods-pingTracer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = pingTracer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.gutnik.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "pingTracer/pingTracer-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		81064B581C3FBA4A00F7FF24 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A82C065FE910E5E08C41A53D /* Pods-pingTracer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = pingTracer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.gutnik.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "pingTracer/pingTracer-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Release;
 		};
@@ -372,6 +563,7 @@
 				);
 				INFOPLIST_FILE = pingTracerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.gutnik.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pingTracer.app/pingTracer";
 			};
@@ -387,6 +579,7 @@
 				);
 				INFOPLIST_FILE = pingTracerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.gutnik.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pingTracer.app/pingTracer";
 			};
@@ -411,6 +604,7 @@
 				81064B581C3FBA4A00F7FF24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		81064B591C3FBA4A00F7FF24 /* Build configuration list for PBXNativeTarget "pingTracerTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +613,7 @@
 				81064B5B1C3FBA4A00F7FF24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

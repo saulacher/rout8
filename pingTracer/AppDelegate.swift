@@ -8,16 +8,73 @@
 
 import UIKit
 
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
-
+    var reachability: Reachability?
+    
+    
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+        
+        NSNotificationCenter.defaultCenter().postNotificationName("checkForReachability", object: nil)
         // Override point for customization after application launch.
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: Selector("checkForReachability:"), name: kReachabilityChangedNotification, object: nil)
+        self.reachability = Reachability.reachabilityForInternetConnection()
+        self.reachability!.startNotifier()
+        
+        let remoteHostStatus = self.reachability!.currentReachabilityStatus()
+        print(remoteHostStatus)
+        print(NotReachable.rawValue)
+        print(NSNotificationCenter.defaultCenter().observationInfo)
+        //print(reachability)
+        
+        
+        let type: UIUserNotificationType = [UIUserNotificationType.Badge, UIUserNotificationType.Alert, UIUserNotificationType.Sound]
+        
+        let setting = UIUserNotificationSettings(forTypes: type, categories: nil)
+        
+        UIApplication.sharedApplication().registerUserNotificationSettings(setting)
+        
+        UIApplication.sharedApplication().registerForRemoteNotifications()
+        
+        
+        
         return true
+        
     }
+    
+    
+    
+    func application(application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: NSData) {
+        //
+        let characterSet: NSCharacterSet = NSCharacterSet( charactersInString: "<>" )
+        
+        let deviceTokenString: String = ( deviceToken.description as NSString )
+            .stringByTrimmingCharactersInSet( characterSet )
+            .stringByReplacingOccurrencesOfString( " ", withString: "" ) as String
+        token = deviceTokenString
+        //if deviceTokenString == " " {token = "шо то у тебя с телефоном"}
+        print( deviceTokenString )
+/*
+        let tokenData = deviceToken
+        token = String(data: tokenData, encoding: NSUTF8StringEncoding)!
+        print(tokenData)
+        // token = String(NSString(data: deviceToken, encoding:NSUTF8StringEncoding)!)
+        print("token")
+        print(token)*/
+        
+    }
+    
+    func application(application: UIApplication, didFailToRegisterForRemoteNotificationsWithError error: NSError) {
+        
+        print(error)
+        
+    }
+
+
+    
 
     func applicationWillResignActive(application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
@@ -40,7 +97,23 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationWillTerminate(application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
-
+    
+    func checkForReachability(notification:NSNotification) {
+        
+        let remoteHostStatus = self.reachability!.currentReachabilityStatus()
+        
+        if remoteHostStatus.rawValue == NotReachable.rawValue {
+            internetReachabolity = false  }
+        else {  internetReachabolity = true }
+        
+        print(internetReachabolity)
+    
+    }
+    
+    
 
 }
+
+
+
 
